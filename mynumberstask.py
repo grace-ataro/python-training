@@ -1,0 +1,16 @@
+temp=56.8926
+temp=round(temp)
+print(temp)
+temp=56.8926
+temp=round(temp,1)
+temp=str(temp)+"0"
+print(temp)
+temp=56.8926
+temp=str(temp)
+print(temp[0:6])
+temp=56.8926
+temp=str(temp)
+temp1=(temp[3])
+temp2=(temp[2])
+temp3=(temp[4:7])
+print(temp1+temp2+temp3)
