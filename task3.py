@@ -6,4 +6,3 @@
 #e.g if a user enters “712345678”, the program should display “+254712345678”
 phonenumber=input("Enter Phone Number: ")
 phonenumber_int=float(phonenumber)
-print("+254", not "254" or "07" or "71" or "01")
