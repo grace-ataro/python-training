@@ -4,9 +4,9 @@
 #If the number is a multiple of 4, display out a different message.
 num=input("Enter a number: ")
 num_int=float(num)
-if num_int % 2==0:
-   print("Even")
-elif num_int % 4==0:
-    print("The Number Is a Multiple of 4")
+if num_int % 4==0:
+   print("The Number Is a Multiple of 4")
+elif num_int % 2==0:
+    print("Even")
 else:
     print("Odd")

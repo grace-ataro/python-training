@@ -7,4 +7,3 @@ if (mynum>=0) and (mynum<=100):
  else:print("Low")
 else:
   print("Number invalid")
-4
