@@ -1,2 +1,5 @@
 email=input("Enter Email: ")
-print('@' in 'mail@mail.com' and '.' in 'mail@mail.com')
+if "@" in email and "." in email:
+    print("The email entered is valid")
+else:
+    print("The email entered is not valid")
